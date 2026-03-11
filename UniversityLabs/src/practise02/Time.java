@@ -1,4 +1,4 @@
-package lab02;
+package practise02;
 
 public class Time {
 	int hour;
@@ -103,11 +103,6 @@ public class Time {
 		this.hour = h;
 		this.minute = m;
 		this.second = s;
-		
-		this.hour = h;
-		this.minute = m;
-		this.second = s;
-		
 	}
 	
 }

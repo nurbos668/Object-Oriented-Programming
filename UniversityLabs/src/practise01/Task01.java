@@ -1,4 +1,4 @@
-package lab01;
+package practise01;
 
 public class Task01 {
 
