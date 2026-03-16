@@ -50,7 +50,7 @@ public class GradeBook {
 		for(String range : ranges) {
 		    res.append(range).append(": ");
 		    for(double grade : grades.values()) {
-		        if(rangeIndex == 10) { // последний диапазон - 100
+		        if(rangeIndex == 10) {
 		            if(grade == 100) res.append("*");
 		        } else {
 		            if(grade >= rangeIndex * 10 && grade <= rangeIndex * 10 + 9) {
