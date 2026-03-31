@@ -1,0 +1,3 @@
+1) The core difference is that each method in interface has only a signature without implementation, but an abstract class may has a concrete methods and instances.
+2)Yes they can, the implicit modifier is public static final.
+3)Yes they can, it is very useful because we can we do not have to choose one, we can implement many behaviors in our class.
