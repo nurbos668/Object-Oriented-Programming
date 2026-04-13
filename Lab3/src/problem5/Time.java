@@ -1,6 +1,6 @@
-package practise02;
+package problem5;
 
-public class Time {
+public class Time implements Comparable<Time> {
 	int hour;
 	int minute;
 	int second;
@@ -15,6 +15,44 @@ public class Time {
 		}
 	}
 	
+	
+	
+	public int getHour() {
+		return hour;
+	}
+
+
+
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
+
+
+
+	public int getMinute() {
+		return minute;
+	}
+
+
+
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
+
+
+
+	public int getSecond() {
+		return second;
+	}
+
+
+
+	public void setSecond(int second) {
+		this.second = second;
+	}
+
+
+
 	public String toStandard() {
 		StringBuilder str = new StringBuilder();
 		int h = this.hour;	
@@ -94,5 +132,15 @@ public class Time {
 		this.minute = m;
 		this.second = s;
 	}
+
+
+
+	@Override
+	public int compareTo(Time o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
 	
 }
